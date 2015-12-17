@@ -1,0 +1,10 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type
+2015-06-13T03:53:12.290Z,36.6063347,-121.2125015,5.8,0.88,md,8,108,0.0362,0.07,nc,nc72465321,2015-06-13T03:54:49.830Z,"22km NNE of Soledad, California",earthquake
+2015-06-13T03:19:25.650Z,38.7936668,-122.8141632,3.72,0.82,md,11,167,0.01018,0.02,nc,nc72465306,2015-06-13T03:20:59.620Z,"5km WNW of The Geysers, California",earthquake
+2015-06-13T03:17:29.930Z,-24.5966,-176.3493,77.15,5.1,mb,,120,4.839,0.81,us,us20002pky,2015-06-13T03:36:47.620Z,South of the Fiji Islands,earthquake
+2015-06-13T03:17:07.000Z,65.0632,-147.6669,11.2,0.2,ml,,,,1.07,ak,ak11624674,2015-06-13T03:36:30.943Z,"23km NNE of College, Alaska",earthquake
+2015-06-13T03:12:12.000Z,62.3266,-148.2344,39.5,1.3,ml,,,,0.94,ak,ak11624673,2015-06-13T03:23:05.975Z,"67km NNE of Sutton-Alpine, Alaska",earthquake
+2015-06-13T02:58:53.700Z,18.1993,-67.5009,144,3,Md,7,248.4,0.18505295,0.18,pr,pr15164000,2015-06-13T03:52:32.362Z,"30km WSW of Rincon, Puerto Rico",earthquake
+2015-06-13T02:57:58.700Z,38.7708321,-122.722168,2.91,0.76,md,9,126,0.004555,0.02,nc,nc72465301,2015-06-13T02:59:34.480Z,"3km ESE of The Geysers, California",earthquake
+2015-06-13T02:33:19.470Z,34.4406,137.3947,322.1,4.5,mb,,53,0.692,0.92,us,us20002pkt,2015-06-13T02:53:42.867Z,"27km SSE of Tahara, Japan",earthquake
+2015-06-13T02:28:32.000Z,65.3832,-148.3514,0.1,0.8,ml,,,,0.75,ak,ak11624649,2015-06-13T02:44:42.250Z,"61km NNW of Ester, Alaska",earthquake

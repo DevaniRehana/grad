@@ -1,0 +1,32 @@
+application: kamujupython
+version: assignment7
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /signup
+  script: main.app
+  secure: always
+
+- url: /login
+  script: main.app
+  secure: always
+
+- url: /forgot
+  script: main.app
+  secure: always
+
+- url: .*
+  script: main.app
+
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+- name: markupsafe
+  version: latest
+- name: MySQLdb
+  version: latest

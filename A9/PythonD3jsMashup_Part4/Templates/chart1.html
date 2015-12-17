@@ -1,0 +1,22 @@
+<html>
+<div id="chartContainer">
+<head>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.1.2.min.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    var svg = dimple.newSvg("body", 800, 600);
+
+    var data =  {% autoescape off %} {{temp_data}} {% endautoescape %};
+
+    var chart = new dimple.chart(svg, data);
+    chart.addCategoryAxis('x', 'product');
+    chart.addMeasureAxis('y', 'count');
+    chart.addSeries(null, dimple.plot.bubble);
+    chart.draw();
+  </script>
+
+</body>
+</div>
+</html>

@@ -1,0 +1,242 @@
+SingleLife	A Single Life
+Single Life	A Single Life
+Bradley Cooper	American Sniper
+BradleyCooper	American Sniper
+Joel Cox	American Sniper
+Gary Roach	American Sniper
+American Sniper	American Sniper
+AmericanSniper	American Sniper
+Americano Sniper	American Sniper
+#Aya	Aya
+Binnun	Aya
+Brezis	Aya
+Lost Stars	Begin Again
+Begin Again	Begin Again
+BeginAgain	Begin Again
+LostStars	Begin Again
+gregg alexander	Begin Again
+#Grateful	Beyond The Lights
+BeyondTheLights	Beyond The Lights
+Beyond The Lights	Beyond The Lights
+DianeWarren	Beyond The Lights
+Diane Warren	Beyond The Lights
+BigHero6	Big Hero 6
+Big Hero 6	Big Hero 6
+Don Hall	Big Hero 6
+Roy Conli	Big Hero 6
+Chris Williams	Big Hero 6
+JustChris	Big Hero 6
+MichaelKeaton	Birdman
+Keaton	Birdman
+Birdman	Birdman
+Norton	Birdman
+Lubezki	Birdman
+Emma Stone	Birdman
+EmmaStone	Birdman
+Inárritu	Birdman
+Inarritu	Birdman
+AlejandroGonzalezInarritu	Birdman
+Boogaloo	Boogaloo and Graham
+Michael Lennox	Boogaloo and Graham
+Boyhood	Boyhood
+Hawke	Boyhood
+Arquette	Boyhood
+Linklater	Boyhood
+Adair	Boyhood
+Butterlamp	Butter Lamp (La Lampe au Beurre de Yak)
+Butter Lamp	Butter Lamp (La Lampe au Beurre de Yak)
+la lampe	Butter Lamp (La Lampe au Beurre de Yak)
+Hu Wei	Butter Lamp (La Lampe au Beurre de Yak)
+Julien Feret	Butter Lamp (La Lampe au Beurre de Yak)
+CaptainAmerica	Captain America The Winter Solider
+Captain America	Captain America The Winter Solider
+CitizenFour	CitizenFour
+Poitras	CitizenFour
+Crisis Hotline	Crisis Hotline Veterans Press 1
+Dana Heinz Perry	Crisis Hotline Veterans Press 1
+DawnOf	Dawn of the Planet of the Apes
+Joe Letteri	Dawn of the Planet of the Apes
+#Feast	Feast
+PatrickTOsborne	Feast
+Patrick Osborne	Feast
+Kristina Reed	Feast
+Maier	Finding Vivian Maier
+Maloof	Finding Vivian Maier
+CharlieSiskel	Finding Vivian Maier
+Foxcatcher	Foxcatcher
+Carell	Foxcatcher
+Ruffalo	Foxcatcher
+Bennett Miller	Foxcatcher
+BennettMiller	Foxcatcher
+BillCorso	Foxcatcher
+Bill Corso	Foxcatcher
+Dennis Liddiard	Foxcatcher
+DennisLiddiard	Foxcatcher
+Max Frye	Foxcatcher
+MaxFry	Foxcatcher
+Futterman	Foxcatcher
+I’m Not Gonna Miss You	Glen Campbell. I’ll Be Me
+Glen Campbell	Glen Campbell. I’ll Be Me
+ImNotGonnaMissYou	Glen Campbell. I’ll Be Me
+Julian Raymond	Glen Campbell. I’ll Be Me
+GoneGirl	Gone Girl
+Gone Girl	Gone Girl
+Rosamund	Gone Girl
+GuardiansoftheGalaxy	Guardians Of The Galaxy
+@Guardians	Guardians Of The Galaxy
+Pratt	Guardians Of The Galaxy
+Yianni-Georgiou	Guardians Of The Galaxy
+David White	Guardians Of The Galaxy
+Ceretti	Guardians Of The Galaxy
+Aithadi	Guardians Of The Galaxy
+Fawkner	Guardians Of The Galaxy
+Corbould	Guardians Of The Galaxy
+HowtoTrainYourDragon	How to Train Your Dragon 2
+How To Train Your Dragon	How to Train Your Dragon 2
+Deblois	How to Train Your Dragon 2
+Bonnie Arnold	How to Train Your Dragon 2
+Poland	Ida
+IdaMovie	Ida
+Ida	Ida
+Pawlikowski	Ida
+#Ida	Ida
+Cumberbatch	The Imitation Game
+ImitationGame	The Imitation Game
+Turing	The Imitation Game
+Imitation Game	The Imitation Game
+Knightly	The Imitation Game
+Tyldum	The Imitation Game
+Goldenberg	The Imitation Game
+Djurkovic	The Imitation Game
+Tatiana Macdonald	The Imitation Game
+Graham Moore	The Imitation Game
+InherentVice	Inherent Vice
+Inherent Vice	Inherent Vice
+Interstellar	Interstellar
+Richard King	Interstellar
+gary rizzo	Interstellar
+garyrizzo	Interstellar
+Paul Franklin	Interstellar
+Andrew Lockley	Interstellar
+Ian Hunter	Interstellar
+Into The Woods	Into The Woods
+IntoTheWoods	Into The Woods
+Streep	Into The Woods
+Atwood	Into The Woods
+Gassner	Into The Woods
+#Joanna	Joanna
+Last Days in Vietnam	Last Days in Vietnam
+McAlester	Last Days in Vietnam
+Rory Kennedy	Last Days in Vietnam
+Russian	Leviathan
+Leviathan	Leviathan
+Zvyagintsev	Leviathan
+Maleficent	Maleficent
+Anna B. Sheppard	Maleficent
+Moulton	Me and My Moulton
+Torill	Me and My Moulton
+MrTurner	Mr. Turner
+Mr Turner	Mr. Turner
+Mr. Turner	Mr. Turner
+Dick Pope	Mr. Turner
+DickPope	Mr. Turner
+Durran	Mr. Turner
+Gilroy	Nightcrawler
+Nightcrawler	Nightcrawler
+OurCurse	Our Curse
+Our Curse	Our Curse
+Parvaneh	Parvaneh
+Glory	Selma
+Selma	Selma
+Oyelowo	Selma
+Song of the Sea	Song of the Sea
+SongOfTheSea	Song of the Sea
+Tomm Moore	Song of the Sea
+TommMoore	Song of the Sea
+PaulYoung	Song of the Sea
+Paul Young	Song of the Sea
+StillAlice	Still Alice
+JulianneMoore	Still Alice
+Julianne Moore	Still Alice
+Still Alice	Still Alice
+Tangerines	Tangerines
+Urushadze	Tangerines
+BiggerPicture	The Bigger Picture
+Bigger Picture	The Bigger Picture
+Boxtrolls	The Box Trolls
+Annable	The Box Trolls
+Dam Keeper	The Dam Keeper
+DamKeeper	The Dam Keeper
+GrandBudapestHotel	The Grand Budapest Hotel
+Grand Budapest	The Grand Budapest Hotel
+Yeoman	The Grand Budapest Hotel
+Wes Anderson	The Grand Budapest Hotel
+WesAnderson	The Grand Budapest Hotel
+Pilling	The Grand Budapest Hotel
+Pinnock	The Grand Budapest Hotel
+Hugo Guinness	The Grand Budapest Hotel
+HugoGuinness	The Grand Budapest Hotel
+Hobbit	The Hobbit The Battle of the Five Armies
+Brent Burge	The Hobbit The Battle of the Five Armies
+The Judge	The Judge
+Duvall	The Judge
+TheJudge	The Judge
+JudgeMovie	The Judge
+Everything is Awesome	The Lego Movie
+EverythingIsAwesome	The Lego Movie
+Lego	The Lego Movie
+shawnmpatterson	The Lego Movie
+PhoneCall	The Phone Call
+Phone Call	The Phone Call
+Kirkby	The Phone Call
+James Lucas	The Phone Call
+the reaper	The Reaper (La Parka)
+laparka	The Reaper (La Parka)
+la parka	The Reaper (La Parka)
+Arguello	The Reaper (La Parka)
+Salt of the Earth	The Salt of the Earth
+SaltOfTheEarth	The Salt of the Earth
+Wenders	The Salt of the Earth
+Ribeiro	The Salt of the Earth
+Kaguya	The Tale of the Princess Kaguya
+Takahata	The Tale of the Princess Kaguya
+TheoryOfEverything	The Theory of Everything
+Theory of Everything	The Theory of Everything
+Redmayne	The Theory of Everything
+Felicity Jones	The Theory of Everything
+FelicityJones	The Theory of Everything
+McCarten	The Theory of Everything
+Timbuktu	Timbuktu
+Sissako	Timbuktu
+Cotillard	Two Days One Night
+TwoDaysOneNight	Two Days One Night
+Two Days One Night	Two Days One Night
+Unbroken	Unbroken
+Deakins	Unbroken
+becsully	Unbroken
+Becky Sullivan	Unbroken
+David Lee	Unbroken
+Virunga	Virunga
+Einsiedel	Virunga
+Natasegara	Virunga
+Whiplash	Whiplash
+Simmons	Whiplash
+CraigMann	Whiplash
+Ben Wilkins	Whiplash
+Chazelle	Whiplash
+WhiteEarth	White Earth
+White Earth	White Earth
+christian jensen	White Earth
+WildMovie	Wild
+Wild	Wild
+Witherspoon	Wild
+ReeseWitherspoon	Wild
+Wild Tales	Wild Tales
+WildTales	Wild Tales
+Szifron	Wild Tales
+Jackman	X-Men Days of Future Past
+x-men	X-Men Days of Future Past
+xmenmovies	X-Men Days of Future Past
+RichardStammers	X-Men Days of Future Past
+Crosbie	X-Men Days of Future Past
+Waldbauer	X-Men Days of Future Past

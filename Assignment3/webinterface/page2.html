@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Earth Quake Details</title>
+  </head>
+  <body>
+
+    <p>Enter the values for the queries:</p>
+    <form action="{{ upload_url }}" method="post" enctype="multipart/form-data">
+      <label for="description">Description:</label>
+        <input type="text" name="description" id="description" /><br />
+      <label for="upload">File:</label>
+        <input type="file" name="upload" id="upload" multiple="true" /><br />
+      <input type="submit" value="Upload File" />
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<div align="center">
+<h1>Please Upload the csv file</h1><br>
+<form action='/upload/?value={{value}}' method="post"
+                    enctype="multipart/form-data">{% csrf_token %}
+                    <input type="file" name="myfile" />
+                    <input type="submit" name="submit" value="Upload" />
+                    </form>
+                    </div>

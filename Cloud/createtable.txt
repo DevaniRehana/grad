@@ -1,0 +1,63 @@
+TABLES = {}
+TABLES['employees'] = (
+    "CREATE TABLE `employees` ("
+    "  `emp_no` int(11) NOT NULL AUTO_INCREMENT,"
+    "  `birth_date` date NOT NULL,"
+    "  `first_name` varchar(14) NOT NULL,"
+    "  `last_name` varchar(16) NOT NULL,"
+    "  `gender` enum('M','F') NOT NULL,"
+    "  `hire_date` date NOT NULL,"
+    "  PRIMARY KEY (`emp_no`))"
+    
+    decimal(4,10)
+    
+    cur.execute("CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format('cloud'))
+    time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type
+    
+'''CREATE TABLE localquakes1 (time varchar(25) NOT NULL,
+                            latitude decimal(4,10) NOT NULL,
+                            longitude decimal(4,10) NOT NULL,
+                            depth decimal(4,6) DEFAULT NULL,
+                            mag decimal(3,2) NOT NULL,
+                            magType varchar(5) NOT NULL,
+                            nst int(11) NOT NULL ,
+                            gap decimal(12,6) DEFAULT NULL,
+                            dmin decimal(12,6) DEFAULT NULL,
+                            rms decimal(12,6) DEFAULT NULL,
+                            net varchar(5) DEFAULT NULL,
+                            id varchar(12) NOT NULL,
+                            updated varchar(25) DEFAULT NULL,
+                            place varchar(100) NOT NULL,
+                            type varchar(12) DEFAULT NULL,
+                            PRIMARY KEY (id))'''
+
+"CREATE TABLE IF NOT EXISTS locquakes (
+  task_id int(11) NOT NULL AUTO_INCREMENT,
+  subject varchar(45) DEFAULT NULL,
+  start_date DATE DEFAULT NULL,
+  end_date DATE DEFAULT NULL,
+  description varchar(200) DEFAULT NULL,
+  PRIMARY KEY (task_id))"
+add_row = ("INSERT INTO localquakes(time,latitude,longitude,depth,mag,magType,nst ,gap,dmin,rms,net,id,updated,place,type)VALUES (%s, %s, %s, %s, %s)")
+add_row= '''INSERT INTO localquakes(time, latitude, longitude, depth, mag, magType, nst, gap, dmin, rms, net, id, updated, place,type)values(%s, %s, %s, %s, %s,%s, %s, %s, %s, %s,%s, %s, %s, %s, %s)'''
+	                     
+	                     
+add_row= '''INSERT INTO localquakes1(time, latitude, longitude, depth, mag,magType, nst, gap, dmin, rms, net, id, updated, place,type)values('%s', '%s', '%s', '%s', '%s','%s', '%s', '%s', '%s', '%s','%s', '%s', '%s', '%s', '%s')'''
+('2015-06-13T03:53:12.290Z', '36.6063347', '-121.2125015', '5.8', '0.88', 'md', '8', '108', '0.0362', '0.07', 'nc', 'nc72465321', '2015-06-13T03:54:49.830Z', '''22km NNE of Soledad', ' California''', 'earthquake')	                     
+['2015-06-13T03:53:12.290Z', '36.6063347', '-121.2125015', '5.8', '0.88', 'md', '8', '108', '0.0362', '0.07', 'nc', 'nc72465321', '2015-06-13T03:54:49.830Z', '"22km NNE of Soledad', ' California"', 'earthquake']
+
+['2015-06-13T02:28:32.000Z', '65.3832', '-148.3514', '0.1', '0.8', 'ml', '', '', '', '0.75', 'ak', 'ak11624649', '2015-06-13T02:44:42.250Z', '"61km NNW of Ester', ' Alaska"', 'earthquake']
+
+2015-06-13T03:53:12.290Z,36.6063347,-121.2125015,5.8,0.88,md,8,108,0.0362,0.07,nc,nc72465321,2015-06-13T03:54:49.830Z,"22km NNE of Soledad, California",earthquake
+
+fp = open('all_month10.csv','r')
+lines = fp.readlines()
+for line in lines:
+ print line
+ reader=csv.reader(line,delimiter=',')
+ temp = []
+ for r in reader:
+  print r
+  temp.append[r]
+ print temp
+['2015-06-13T03:53:12.290Z', '36.6063347', '-121.2125015', '5.8', '0.88', 'md', '8', '108', '0.0362', '0.07', 'nc', 'nc72465321', '2015-06-13T03:54:49.830Z', '22km NNE of Soledad, California', 'earthquake']

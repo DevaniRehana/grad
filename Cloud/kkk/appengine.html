@@ -1,0 +1,30 @@
+<html>
+  <head>
+   <title>whether details!</title>
+  </head>
+  <body>
+    <body>
+      <table style="border: 1px solid black">
+        <tbody>
+          <tr>
+            <th width="35%" style="background-color: #CCFFCC; margin: 5px">week</th>
+            <th style="background-color: #CCFFCC; margin: 5px">count</th>
+
+          </tr>
+          {% for wh in whether %}
+             <tr>
+               <td>{{ wh['week'] }}</td>
+               <td>{{ wh['count'] }}</td>
+
+             </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <br /><strong>see details!</strong>
+      <form action="/" method="post">
+
+        <div><input type="submit" value="submit"></div>
+      </form>
+  </body>
+

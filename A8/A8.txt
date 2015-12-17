@@ -1,0 +1,2 @@
+http://scikit-learn.org/stable/auto_examples/text/document_clustering.html#example-text-document-clustering-py
+http://scikit-learn.org/stable/auto_examples/neighbors/plot_classification.html

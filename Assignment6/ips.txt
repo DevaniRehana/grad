@@ -1,0 +1,27 @@
+
+The Hadoop UI can be accessed via the following commands:
+
+  ResourceManager    lynx http://ip-172-31-45-163:9026/
+  NameNode           lynx http://ip-172-31-45-163:9101/
+
+hadoop jar hadoop-examples-*.jar wordcount input output
+-jobconf mapred.reduce.tasks=2 \
+-file ./mapper.py \ 
+-mapper ./mapper.py \ 
+-file ./reducer.py \ 
+-reducer ./reducer.py \  
+-input dft 
+-output dft-output
+
+
+hadoop jar /home/hadoop/hadoop-install/contrib/streaming/hadoop-streaming-1.2.1.jar  \
+-jobconf mapred.reduce.tasks=2 \
+-input /home/kamuju_harish_gmail_com/a6/30yr_03945.dat \
+-file ./mapper.py \ 
+-mapper ./mapper.py \ 
+-file ./reducer.py \ 
+-reducer ./reducer.py \  
+-output /home/kamuju_harish_gmail_com/a6/myoutput
+
+
+hadoop jar /home/hadoop/hadoop-install/contrib/streaming/hadoop-streaming-1.2.1.jar -input /input/30yr_03945.dat -file /home/kamuju_harish_gmail_com/a6/mapper.py -mapper /home/kamuju_harish_gmail_com/a6/mapper.py -file /home/kamuju_harish_gmail_com/a6/reducer.py -reducer /home/kamuju_harish_gmail_com/a6/reducer.py -output /output1/

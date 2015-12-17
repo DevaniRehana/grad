@@ -1,0 +1,60 @@
+
+Name:
+Last 4 digits ID:
+Computer IP address:
+CSE 6331, Cloud Computing					
+
+
+Quiz Q5i6, Summer 2015   (c) DL, UTA, 2015
+
+
+  C&P means copy and paste only those relevant lines from your program(s) into this quiz.
+
+
+ 1. Get first sheet from your GTA.
+
+ 2. Get files from this same folder.
+   
+ 3. Name your program with your name and last digits of your ID.
+
+ 4. The Titanic was a big ship that ran into a cloud, many years ago, and sunk.
+    Most observers believe that poorer, or younger, or other people died more frequently.
+    This data set has information on each passenger on the Titanic,
+    pclass is the ticket "class", survived is 1 for yes, parch is the number of parents/children aboard,
+    fare is the price of the ticket, etc.
+
+ 4.1 While most data is  correct, this is not always the case. Furthermore, some parts of a tuple may be
+     unavailable or missing, represented by either “,,” (missing) or 
+     a negative value. (Obviously, these values are wrong.) 	
+
+ 5. Rename it to your name, .csv (you may "clean" this file if needed)
+
+ 6. Transfer it to a cloud provider, as a file
+
+The remaining should be done, exclusivly, on a cloud service provider:
+
+ 7. Create a web front end to allow selecting a two attributes and use those two attributes to cluster
+    (using k-means) into a user selectable number of clusters.
+
+
+ 7.1 C&P to list the centroid of each cluster, and the number of survivors in that cluster.
+
+
+ 7.2 Show to GTA
+
+ 8. Visually show a bar chart where, for each cluster, you show number of points in that cluster.
+
+
+ 8.1 C&P to visually show each cluster centroid (and user selected, optionally all data points)
+
+
+ 8.2 Show to GTA
+
+ 
+ 10. Submit this quiz
+     
+
+ 11. When complete, return (send) this quiz
+    If you finish early, send this immediately, otherwise send 
+    on-time. 
+

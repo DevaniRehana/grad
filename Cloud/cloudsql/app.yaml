@@ -1,0 +1,16 @@
+application: wide-plating-97021
+version: auto 
+api_version: 1
+runtime: python27
+threadsafe: true
+
+libraries:
+- name: jinja2
+  version: latest
+- name: webapp2
+  version: latest
+
+
+handlers:
+- url: /.*
+  script: main.app

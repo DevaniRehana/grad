@@ -1,0 +1,10 @@
+Complaint ID,Product,Sub-product,Issue,Sub-issue,State,ZIP code,Submitted via,Date received,Date sent to company,Company,Company response,Timely response?,Consumer disputed?
+1427131,Debt collection,Medical,Disclosure verification of debt,Not given enough info to verify debt,TX,75248,Web,06/18/2015,06/18/2015,Transworld Systems Inc.,In progress,Yes,
+1427578,Debt collection,Medical,False statements or representation,Indicated committed crime not paying,NJ,08882,Web,06/18/2015,06/18/2015,Transworld Systems Inc.,In progress,Yes,
+1427589,Debt collection,Payday loan,Improper contact or sharing of info,Contacted employer after asked not to,MI,48217,Web,06/18/2015,06/18/2015,"National Credit Adjusters, LLC",Closed with explanation,Yes,
+1426958,Debt collection,,Cont'd attempts collect debt not owed,Debt was paid,OH,43026,Web,06/18/2015,06/18/2015,Oracle Financial Group LLC.,Closed with monetary relief,Yes,
+1424985,Mortgage,FHA mortgage,"Loan modification,collection,foreclosure",,PA,15074,Web,06/17/2015,06/17/2015,"Bayview Loan Servicing, LLC",In progress,Yes,
+1424982,Debt collection,"Other (phone, health club, etc.)",Cont'd attempts collect debt not owed,Debt is not mine,IL,60477,Web,06/17/2015,06/17/2015,"Convergent Resources, Inc.",Closed with explanation,Yes,
+1424862,Debt collection,Medical,Cont'd attempts collect debt not owed,Debt is not mine,FL,33435,Web,06/17/2015,06/17/2015,"CMRE Financial Services, Inc.",Closed with explanation,Yes,
+1425025,Mortgage,Conventional fixed mortgage,"Loan modification,collection,foreclosure",,MA,01826,Web,06/17/2015,06/17/2015,Santander Bank US,In progress,Yes,
+1424988,Debt collection,"Other (phone, health club, etc.)",Cont'd attempts collect debt not owed,Debt resulted from identity theft,AL,35215,Web,06/17/2015,06/17/2015,"Convergent Resources, Inc.",Closed with explanation,Yes,

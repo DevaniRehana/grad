@@ -1,0 +1,150 @@
+import pandas as pd
+k = pd.read_csv('30yr_03103.dat',header=None, delim_whitespace=True)
+
+import pandas as pd
+k = pd.read_csv('temp.dat',header=None, delim_whitespace=True)
+
+FAT_YEARMONTH,FAT_DAY,FAT_TIME,FATALITY_ID,EVENT_ID,FATALITY_TYPE,FATALITY_DATE,FATALITY_AGE,FATALITY_SEX,FATALITY_LOCATION,EVENT_YEARMONTH
+
+MySQLdb.connect(unix_socket='',
+            db='testdb',user='root',passwd='mypassword@123')
+select tablespace_name, table_name from all_tables;
+
+insert into COUNTRY values ('Australia', 23.59, 0, 'Ange Postecoglou')
+insert into COUNTRY values ('Netherlands', '16.9', '0', 'Louis van Gaal')
+
+table=conn.create_table(table_name=tablename,schema=[HashKey('complaintid')],throughput ={'read':'1','write':'1'})
+
+users = Table.create('users', schema=[HashKey('username')])
+su sudo
+ pip install mysql-python
+>> yum install python-devel
+>> yum install MySQL-devel
+>> yum install zlib-devel
+>> yum install openssl-devel
+
+yum install mysql-devel gcc python-devel
+
+mydb = MySQLdb.connect(host = "awsdb.cppwhxblopbz.us-west-2.rds.amazonaws.com",
+                     user="kamuju",passwd="password", port=3306, db="govdata")
+                     
+(Product varchar(25) NOT NULL,
+ Sub-product varchar(45) DEFAULT NULL,
+ Issue varchar(45) DEFAULT NULL,
+ Sub-issue varchar(45) DEFAULT NULL,
+ State varchar(5) DEFAULT NULL,
+ ZIP_code int(11) DEFAULT NULL,
+ Submitted_via varchar(12) DEFAULT NULL,
+ Date_received datetime DEFAULT NULL,
+ Date_sent_to_company datetime DEFAULT NULL,
+ Company varchar(45)DEFAULT NULL,
+ Company_response varchar(45)DEFAULT NULL,
+ Timely_response? tinyint(1)DEFAULT NULL,
+ Consumer_disputed? tinyint(1)DEFAULT NULL,
+ PRIMARY KEY (Product))
+ 
+ 
+ (Product ,
+  Sub-product ,
+  Issue ,
+  Sub-issue ,
+  State ,
+  ZIP_code ,
+  Submitted_via ,
+  Date_received ,
+  Date_sent_to_company ,
+  Company ,
+  Company_response ,
+  Timely_response? ,
+  Consumer_disputed? ,
+ )
+ 
+ CREATE TABLE consumer_complaints212 (Product varchar(25) NOT NULL,
+                          Subproduct varchar(45) DEFAULT NULL,
+                          Issue varchar(45) DEFAULT NULL,
+                          Sub-issue varchar(45) DEFAULT NULL,
+                          State varchar(5) DEFAULT NULL,
+                          ZIP_code int(11) DEFAULT NULL,
+                          Submitted_via varchar(12) DEFAULT NULL,
+                          Date_received datetime DEFAULT NULL,
+                          Date_sent_to_company datetime DEFAULT NULL,
+                          Company varchar(45) DEFAULT NULL,
+                          Company_response varchar(45) DEFAULT NULL,
+                          Timely_response? varchar(5) DEFAULT NULL,
+                          Consumer_disputed? tinyint(1) DEFAULT NULL,
+                         PRIMARY KEY (Product))
+INSERT INTO consumer_complaints21((Product ,Subproduct,Issue ,Subissue ,State ,ZIP_code ,Submitted_via ,Date_received ,Date_sent_to_company ,Company ,Company_response ,Timely_response ,Consumer_disputed) values ('%s', '%s', '%s', '%s', '%s',%s,'%s', %s, %s, '%s','%s','%s','%s'))
+                         ) ['1427131', 'Debt collection', 'Medical', 'Disclosure verification of debt', 'Not given enough info to verify debt', 'TX', '75248', 'Web', '06/18/2015', '06/18/2015', 'Transworld Systems Inc.', 'In progress', 'Yes', 'NULL']
+
+
+
+
+Create table COUNTRY (Country_Name Varchar(20) PRIMARY KEY,Population  decimal(10,2),No_of_Worldcup_won int, Manager varchar (20));
+
+create table PLAYERS (Player_id int PRIMARY KEY,Name varchar (40),Fname varchar (20),Lname varchar (35),DOB date,Country varachar(20),Height int,Club varchar(30),Position varchar(10),Caps_for_Country int,IS_CAPTAIN Boolean);
+
+create table MATCH_RESULTS (Match_id int PRIMARY KEY,Date_of_Match date,Start_Time_Of_Match time,Team1 varchar(25),Team2 varchar(25),Team1_score int,Team2_score int,Stadium_Name varchar(35),Host_City varchar(20));
+
+create table PLAYER_CARDS(Player_id int PRIMARY KEY,Yellow_Cards int,Red_Cards int);
+
+create table PLAYER_ASSISTS_GOALS(Player_id int PRIMARY KEY,No_of_Matches int,Goals int,Assists int,Minutes_Played int);
+
+
+CREATE TABLE  `hxk0930`.`PLAYERS` (
+`Player_id` INT NOT NULL ,
+`Name` VARCHAR( 40 ) NOT NULL ,
+`Fname` VARCHAR( 20 ) NOT NULL ,
+`Lname` VARCHAR( 35 ) NOT NULL ,
+`DOB` DATE NOT NULL ,
+`Country` VARCHAR( 20 ) NOT NULL ,
+`Height` INT NOT NULL ,
+`Club` VARCHAR( 30 ) NOT NULL ,
+`Position` VARCHAR( 10 ) NOT NULL ,
+`Caps_for_country` INT NOT NULL ,
+`Is_captain` BOOL NOT NULL ,
+PRIMARY KEY (  `Player_id` )
+) ENGINE = MYISAM
+
+
+CREATE TABLE  `hxk0930`.`MATCH_RESULTS` (
+`Match_id` INT NOT NULL ,
+`Date_of_Match` DATE NOT NULL ,
+`Start_Time_Of_Match` TIME NOT NULL ,
+`Team1` VARCHAR( 25 ) NOT NULL ,
+`Team2` VARCHAR( 25 ) NOT NULL ,
+`Team1_score` INT NOT NULL ,
+`Team2_score` INT NOT NULL ,
+`Stadium` VARCHAR( 35 ) NOT NULL ,
+`Host_city` VARCHAR( 20 ) NOT NULL ,
+PRIMARY KEY (  `Match_id` )
+) ENGINE = MYISAM
+
+
+CREATE TABLE  `hxk0930`.`PLAYER_CARDS` (
+`Player_id` INT NOT NULL ,
+`Yellow_Cards` INT NOT NULL ,
+`Red_Cards` INT NOT NULL ,
+PRIMARY KEY (  `Player_id` )
+) ENGINE = MYISAM
+
+
+CREATE TABLE  `hxk0930`.`PLAYER_ASSISTS_GOALS` (
+`Player_id` INT NOT NULL ,
+`No_of_Matches` INT NOT NULL ,
+`Goals` INT NOT NULL ,
+`Assists` INT NOT NULL ,
+`Minutes_Played` INT NOT NULL
+) ENGINE = MYISAM
+
+
+Create table COUNTRY(Country_Name Varchar(30) PRIMARY KEY,Population decimal(10,2),No_of_Worldcup_won int,Manager varchar(25));
+
+Create table PLAYERS(Player_id int PRIMARY KEY,Name varchar(40),Fname varchar(20),Lname varchar(35),DOB date,Country varchar(30),Height int,Club varchar(30),Position varchar(10),Caps_for_Country int,IS_CAPTAIN char(5) check (IS_CAPTAIN in('FALSE','TRUE')),FOREIGN KEY(country) references COUNTRY(Country_Name));
+
+Create table MATCH_RESULTS(Match_id int PRIMARY KEY,Date_of_Match date,Start_Time_Of_Match varchar(8),Team1 varchar(25),Team2 varchar(25),Team1_score int,Team2_score int,Stadium_Name varchar(35),Host_City varchar(20),FOREIGN KEY(Team1) REFERENCES COUNTRY(Country_Name),FOREIGN KEY(Team2) REFERENCES COUNTRY (Country_Name));
+
+Create table PLAYER_CARDS(Player_id int PRIMARY KEY,Yellow_Cards int,Red_Cards int,FOREIGN KEY(Player_id) REFERENCES PLAYERS(Player_id));
+
+Create table PLAYER_ASSISTS_GOALS(Player_id int PRIMARY KEY,No_of_Matches int,Goals int,Assists int,Minutes_Played int,FOREIGN KEY(Player_id) REFERENCES PLAYERS (Player_id));
+
+ALTER TABLE  `MATCH_RESULTS` CHANGE  `Start_Time_Of_Match`  `Start_Time_Of_Match` TIME NULL DEFAULT NULL

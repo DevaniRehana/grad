@@ -1,0 +1,70 @@
+def randomqueries(tablename):
+    mydb = connecttosql()
+    cur = mydb.cursor()
+    tablename = 'harish_kamuju2'
+    qry = "select * from "+tablename+" where FATALITY_AGE >= 40"
+            #qry = "select zip_code from "+tablename+" where complaint_id="+str(randzip)
+    cur.execute(qry)
+    #for first query
+    for row in cur.fetchall():
+        response.write(str(row)+'<br>')
+    #for second query 
+    qry = "select count(*) from "+tablename+" where FATALITY_LOCATION like '%Open Area%' and FATALITY_SEX in ('M','F')"
+    cur.execute(qry)
+    count = cur.fetchone()
+    response.write('Count of fatalities '+str(count)+'<br>')
+    qry = "select * from "+tablename+" where FATALITY_LOCATION like '%Open Area%' and FATALITY_SEX='M'"
+    cur.execute(qry)
+    for row in cur.fetchall():
+        response.write(str(row)+'<br>')
+        
+   
+    temp = '''<h2> Search from  DB</h2><br><form action ="/results/"method="post">
+                      <p>Age Range from : <input type="number" name="age" value =0 /> to
+                      <input type="number" name="age2" value =0 /></p>
+                     <p>Gender  : <input type="text" name="gender" value ="" /></p>
+                     
+        
+                     <p><input type="submit" /></p>'''
+       response.write(temp)
+    if request.method == 'POST':
+              age= request.get("age")
+                age2 = request.get("age2")
+                gender = request.get("gender")
+                mydb = connecttosql()
+                cur = mydb.cursor()
+                qry = "select * from harish_kamuju2 where FATALITY_AGE between "+age+" and "+age2+" and FATALITY_SEX="+gender
+                cur.execute(qry)
+                for row in cur.fetchall():
+                response.write(str(row)+'<br>')
+    mydb.close()
+ #inserting into dynamodb
+ def insertdata2dynamo(fp,filename,newkey):
+     tablename = filename.split('.')[0]
+     st = datetime.datetime.now()
+     #try:
+     if tablename not in conn.list_tables():
+         myschema=conn.create_schema(hash_key_name='FATALITY_ID',hash_key_proto_value='S')
+         #Creates table 
+         conn.create_table(name=tablename,schema=myschema,read_units=10,write_units=10)
+         #Inserts records into the dynamo database.
+     else:
+         mytable = conn.get_table(tablename)
+         newkey.get_contents_to_filename('abc.csv')
+         ft = open('abc.csv','r')
+         alldata = csv.reader(ft,delimiter=',')
+         rownum = 1 
+         for row in alldata:
+             if rownum == 1:
+                 rownum = 0
+                 continue
+             row = ['NULL' if x=='' else x for x in row]
+             rowdict = {'FAT_YEARMONTH':row[0],'FAT_DAY':row[1],'FAT_TIME':row[2],
+                        'FATALITY_ID':row[3],'EVENT_ID':row[4],'FATALITY_TYPE':row[5],
+                        'FATALITY_DATE':row[6],'FATALITY_AGE':row[7],'FATALITY_SEX':row[8]
+                        ,'FATALITY_LOCATION':row[9],'EVENT_YEARMONTH':row[10]}
+             response.write(str(rowdict)+'<br>')
+             data = mytable.new_item(hash_key=row[0],attrs=rowdict)
+            data.put()
+ 
+ 

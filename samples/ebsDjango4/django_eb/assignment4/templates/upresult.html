@@ -1,0 +1,13 @@
+<br><br>
+<div align="center">
+<h3> Time taken to upload the file {{filename}} is {{ time }}! </h3>
+Generating a RDS from the given file...<br><br>
+<h4> Time taken to insert the records into the table is {{dbtime}} </h4><br>
+<form method="get">
+{% if value == "a4" %}
+	<a href ='/results/?tablename={{filename}}.a4'>Check Results for Assignment 4</a>
+{% elif value == "a5" %}
+	<a href ='/results/?tablename={{filename}}.a5'>Check Results for Assignment 5</a>
+{% endif %}
+</form>
+</div>

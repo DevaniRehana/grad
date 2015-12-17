@@ -1,0 +1,2 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type
+2015-06-13T03:53:12.290Z,36.6063347,-121.2125015,5.8,0.88,md,8,108,0.0362,0.07,nc,nc72465321,2015-06-13T03:54:49.830Z,"22km NNE of Soledad, California",earthquake
